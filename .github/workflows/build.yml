@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unzip project
-        run: unzip -o QuickTile.zip -d project
+        run: unzip -o QuickTile-v2.zip -d project
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
